@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+.wrapper {
+    padding-bottom: 100px;
+}
+
+.header-bg {
+    background: #6e7f9c;
+}
+
+.header {
+    color: #feffff;
+    padding: 80px 0;
+}
+
+.header_pic img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_title h1 {
+    font-family: 'Lato-Regular';
+    font-size: 75pt;
+    text-align: center;
+}
+
+.header_title h3 {
+    font-family: 'Lato-Light';
+    font-size: 28pt;
+    text-align: center;
+}
+
+.header_bottom-div {
+    font-size: 14pt;
+    font-family: Lato-Regular;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.header_bottom-div svg {
+    margin: 0 5px;
+}
+
+.header_bottom-div p {
+    margin: 0;
+}
+
+.block-title, .main-text, .secondary-text, .about p {
+    font-family: 'Lato-Light';
+    font-size: 22pt;
+    color: #2e2e2f;
+    text-transform: uppercase;
+}
+
+.block-title {
+    margin: 40px 0;
+}
+
+.main-text {
+    font-family: 'Lato-Bold';
+    font-size: 16pt;
+    margin: 40px 0 5px;
+}
+
+.secondary-text {
+    font-size: 16pt;
+}
+
+.about p {
+    text-transform: none;
+    font-size: 14pt;
+}
+
+.skills_bar {
+    width: 100%;
+    background: #d4d4d4;
+    height: 20px;
+    margin: 15px 0;
+}
+
+.skills_bar_inner {
+    background: #6e7f9c;
+    height: 20px;
+}
+
+.percent1 {
+    width: 99%;
+}
+
+.percent2 {
+    width: 60%;
+}
+
+.percent3 {
+    width: 70%;
+}
+
+.work-example {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.work-example_thumbnail {
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    text-decoration: none !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.work-example_thumbnail:hover {
+    border: 1px solid #6e7f9c;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.work-example_thumbnail img {
+    width: 100%;
+}
+
+.work-example_thumbnail p {
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .work-exp, .about, .education, .skills, .work-example-container {
+        padding: 0 50px;
+    }
+
+    .header_title h1 {
+        font-size: 60pt;
+    }
+
+    .work-example {
+        display: block;
+    }
+
+    .work-example_thumbnail {
+        width: 100%;
+        border: none;
+    }
+
+    .work-example_thumbnail:hover {
+        box-shadow: none;
+        border: none;
+    }
+
+    .work-example_thumbnail div {
+        border: 1px solid #6e7f9c;
+        padding: 10px;
+    }
+}
